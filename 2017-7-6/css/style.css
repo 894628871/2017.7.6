@@ -1,0 +1,51 @@
+body {
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  font-size: .18rem;
+  height: .44rem;
+  line-height: .44rem;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  display: flex; }
+  .header p {
+    flex: 1;
+    text-align: center; }
+  .header i:nth-child(1) {
+    margin-top: .15rem;
+    margin-left: .1rem; }
+  .header i:nth-child(3) {
+    margin-top: .15rem;
+    margin-right: .1rem; }
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  background: #000;
+  background: rgba(0, 0, 0, 0.3); }
+  .content section {
+    background: #fff;
+    width: 90%;
+    margin: 1rem auto; }
+    .content section dl dt {
+      text-align: center;
+      margin-bottom: .1rem; }
+      .content section dl dt img {
+        width: 1.34rem;
+        height: .44rem; }
+    .content section dl dd {
+      text-align: center; }
+
+.footer {
+  height: .5rem;
+  line-height: .5rem;
+  text-align: center;
+  border-top: 1px solid #ccc; }
+
+/*# sourceMappingURL=style.css.map */
